@@ -1,5 +1,10 @@
 Documentation for streamflow conditions under snow drought
 ==========================================================
+Guide:$
+^^^^^^^
+
+print 'hello'$
+>> hello$
 
 .. toctree::
    :maxdepth: 2
