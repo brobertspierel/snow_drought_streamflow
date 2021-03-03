@@ -1,5 +1,5 @@
-License$
-=======$
+License
+=======
 
 Copyright <YEAR> <COPYRIGHT HOLDER>
 
