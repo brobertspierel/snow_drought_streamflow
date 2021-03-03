@@ -1,14 +1,17 @@
 Documentation for streamflow conditions under snow drought
 ==========================================================
-Guide:$
-^^^^^^^
+Guide:
+^^^^^^
 
-print 'hello'$
->> hello$
+The python scripts contained in this project are intended to collect USGS streamflow data and then ingest information from previous work on snow drought 
+and look at correlation between multiple datasets.  
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   test: 
+   ```print('hello world')
+   hello world ```
 
 
 
