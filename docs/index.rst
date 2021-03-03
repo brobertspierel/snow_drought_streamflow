@@ -11,8 +11,9 @@ test:
 hello world ```
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :titlesonly:
+   
    license
    help
    
