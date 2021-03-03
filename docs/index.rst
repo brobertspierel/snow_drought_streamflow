@@ -1,10 +1,5 @@
-.. Snow Drought Streamflow documentation master file, created by
-   sphinx-quickstart on Wed Mar  3 11:57:48 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Snow Drought Streamflow's documentation!
-===================================================
+Documentation for streamflow conditions under snow drought
+==========================================================
 
 .. toctree::
    :maxdepth: 2
