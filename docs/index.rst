@@ -14,7 +14,7 @@ hello world ```
    :maxdepth: 2
    :caption: Contents:
    license
-   help
+   help.html
    
 
 
