@@ -9,7 +9,7 @@ It implements that code, downloads and pickles data for user-defined time period
 **Example:**
 
 
-```
+``
 class get_streamflow_data(): 
 
 	def __init__(self,station_id,start_date='1980-10-01',end_date='2020-09-30',param_id='00060'): 
@@ -38,7 +38,7 @@ class get_streamflow_data():
 
 			output = dict(zip(dates,flow)) #zip these two lists into a dict that looks like {date:flow} for the full time period for one station
 		return output 
-```
+``
 
 This can be instantiated with args like: 
 

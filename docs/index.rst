@@ -6,10 +6,10 @@ Documentation for a body of python scripts which are intended to collect USGS st
 from SNOTEL, MODIS, VIIRS and Sentinel 1 and look at the relationship between datasets.
 
 Dependencies: 
-* climata <https://pypi.org/project/climata/>`_
+* climata <https://pypi.org/project/climata/>
 * numpy 
 * pandas 
-* geopandas <https://geopandas.org/>`_  
+* geopandas <https://geopandas.org/>
 
 .. toctree::
    :maxdepth: 1
