@@ -9,8 +9,7 @@ It implements that code, downloads and pickles data for user-defined time period
 **Example:**
 
 
-``
-class get_streamflow_data(): 
+``class get_streamflow_data(): 
 
 	def __init__(self,station_id,start_date='1980-10-01',end_date='2020-09-30',param_id='00060'): 
 		self.start_date=start_date
@@ -37,14 +36,11 @@ class get_streamflow_data():
 			dates = [r[0] for r in series.data] #.strftime('%y-%m-%d') make datetime objects into strings if you want 
 
 			output = dict(zip(dates,flow)) #zip these two lists into a dict that looks like {date:flow} for the full time period for one station
-		return output 
-``
+		return output`` 
 
 This can be instantiated with args like: 
 
-```
-start_date = '2018-10-01'
+``start_date = '2018-10-01'
 end_date = '2020-09-30'
 station_id = str(df['STAID'].iloc[0])#"06730200"
-param_id = "00060" #this is discharge in cuft/s one day average 
-```
+param_id = "00060" #this is discharge in cuft/s one day average``
